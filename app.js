@@ -12,7 +12,7 @@ app.use(express.static("public"));
 //connecting to mongoDB through mongoose
 main().catch((err) => console.log(err));
 async function main() {
-    await mongoose.connect("mongodb+srv://aayushBatra:Test123@cluster0.o5fdz8d.mongodb.net/todolistDB");
+    await mongoose.connect("mongodb+srv://aayushBatra:Test123@cluster0.o5fdz8d.mongodb.net/dayToDayTasks");
 }
 
 //creating models
